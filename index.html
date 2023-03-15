@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="players">
+      <span class="player__x">
+        <h2 class="player__name"><img src="/images/x.svg" alt="" /></h2>
+        <p class="player__score">Player 1</p>
+      </span>
+      <span class="player__o">
+        <h2 class="player__name"><img src="/images/o.svg" alt="" /></h2>
+        <p class="player__score">player 2</p>
+      </span>
+    </div>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td id="1" class="cell"></td>
+          <td id="2" class="cell"></td>
+          <td id="3" class="cell"></td>
+        </tr>
+        <tr>
+          <td id="4" class="cell"></td>
+          <td id="5" class="cell"></td>
+          <td id="6" class="cell"></td>
+        </tr>
+        <tr>
+          <td id="7" class="cell"></td>
+          <td id="8" class="cell"></td>
+          <td id="9" class="cell"></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="turn">It is <img src="/images/o.svg" alt="" />'s turn</p>
+    <button class="resetBtn btn btn--block">reset</button>
+  </body>
+  <script src="/script.js"></script>
+</html>

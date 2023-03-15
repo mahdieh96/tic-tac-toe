@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  padding: 2rem;
+  font-size: 2rem;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+/* player part */
+.players {
+  width: 30vw;
+
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player__name {
+  text-align: center;
+}
+.player__name img {
+  width: 30%;
+}
+.player__score {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* table part */
+.table {
+  display: block;
+  width: 30vw;
+
+  margin: auto;
+}
+
+td {
+  background-color: #c9f9fc;
+  border-radius: 5px;
+  width: 30vw;
+  height: 10vw;
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+}
+
+td:hover {
+  box-shadow: 0 0 5px black;
+}
+/* paragraph part */
+.turn {
+  width: 30vw;
+
+  text-align: center;
+
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+.turn img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+/* button */
+.btn {
+  border: 1px solid black;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #fcd015;
+}
+
+.btn--block {
+  display: block;
+  width: 20vw;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.win__item {
+  background-color: #fcd015;
+  color: white;
+}
